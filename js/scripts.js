@@ -45,6 +45,17 @@ function updateItemTotals() {
   document.getElementById(
     "total-price"
   ).textContent = `Total price: ${totalPrice}`;
+
+  // document.getElementById("vat-total").textContent = vat.toFixed(2);
+  // document.getElementById("tip-total").textContent = tip.toFixed(2);
+  // document.getElementById(
+  //   "grand-total-label"
+  // ).textContent = `Grand Total: ${grandTotal.toFixed(2)}`;
+
+// const Grand_total=totalPrice+(0.13*totalPrice)+(0.1*totalPrice);
+// document.getElementById(
+//     "grand-total-label"
+//   ).textContent = `Grand Total: ${Grand_total}`;
 }
 
 // Adding increament and decreament functions on button
@@ -106,6 +117,25 @@ document.getElementById("submit-bill").addEventListener("click", function () {
     timestamp: new Date().toISOString(),
   };
 
+
+//   document.getElementById("reset-button").addEventListener("click", () => {
+//   // Reset quantities
+//   samosaQty = 0;
+//   teaQty = 0;
+
+//   // Reset price inputs to default values
+//   document.getElementById("samosa-price").value = 50;
+//   document.getElementById("tea-price").value = 25;
+
+//   // Reset displayed quantities and totals
+//   updateQuantities();
+
+//   // Reset totals and grand total display
+//   document.getElementById("vat-total").textContent = "0";
+//   document.getElementById("tip-total").textContent = "0";
+//   document.getElementById("grand-total-label").textContent = "Grand Total: 0";
+
+// });
   // Log for debugging
   console.log("Submitting data:", data);
 
