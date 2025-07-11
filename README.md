@@ -34,54 +34,65 @@ Perfect for practicing layout, styling and simple scripts.
 - Dynamic elements (e.g., button interactions, form validation)
 - Modular CSS and JavaScript
 
-_(Update this list according to your actual features.)_
 
 ---
 
 ## Project Structure
 
-Bootcamp/
-├── css/
-│ └── styles.css ← Stylesheet file(s)
-├── js/
-│ └── script.js ← JavaScript logic
-└── Index.html ← Main entry page
+Bootcamp/<br>
+├── css/<br>
+│ └── styles.css ← Stylesheet file(s)<br>
+├── js/<br>
+│ └── script.js ← JavaScript logic<br>
+└── Index.html ← Main entry page<br>
+
+---
 
 
-Usage
+## Usage
 --Open the project in a browser.
 
 --Explore page structure and styling.
 
 --Interaction highlights (e.g., click buttons, fill forms) are powered by JavaScript.
 
-Customization
+---
+
+
+
+## Customization
 --Add new HTML pages as needed.
 
 --Extend CSS styles in css/styles.css.
 
 --xpand JS functionality in js/script.js for more dynamic content.
 
+---
 
 
-Contributing
-Want to improve this project? Feel free to:
 
-Fork the repo
+## Contributing
+--Want to improve this project? Feel free to:
 
-Create a feature branch (git checkout -b feature-name)
+--Fork the repo
 
-Commit your changes (git commit -m 'Add feature')
+--Create a feature branch (git checkout -b feature-name)
 
-Push to the branch (git push origin feature-name)
+--Commit your changes (git commit -m 'Add feature')
 
-Open a Pull Request ✨
+--Push to the branch (git push origin feature-name)
+
+--Open a Pull Request 
+
+---
 
 
-License
+## License
 This project is open-source and available under the MIT License.
 
 
-Contact
+---
+
+## Contact
 Author: Lokesh Chaudhary
 Repository: github.com/Lk-Chy/Bootcamp</details>
